@@ -1,0 +1,93 @@
+body {
+    background-color:#DCDEE0;
+}
+  
+.field {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 10px;
+    width: 25%;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 1.3em;
+}
+  
+.box {
+    border: 2px solid #0B5C5D;
+    border-radius: 5px;
+    background-color: #1979CA;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 80%;
+}
+  
+.box:last-child {
+    margin-bottom: 0;
+}
+  
+.btn {
+    margin-right: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 0.65em;
+    color: #fff;
+    outline: none;
+}
+  
+.btnChange {
+    background-color: #4eafc9;
+    border: 1px solid #2ba6cb;
+}
+  
+.btnDelete {
+    background-color: #F13400;
+    border: 1px solid #c60f13;
+}
+
+.btnSuccess {
+    background-color: #1EB771;
+    border: 1px solid #A2C748;
+}
+
+.btnNew {
+    background-color: #dd567e;
+    border: 2px solid #c93964;
+    margin-bottom: 10px;
+}
+  
+.btnChange:hover {
+    background-color: #2ba6cb;
+    border-color: #4eafc9;
+}
+  
+.btnDelete:hover {
+    background-color: #c60f13;
+    border-color: #F13400;
+}
+
+.btnSuccess:hover {
+    background-color: #A2C748;
+    border: 1px solid #1EB771;
+}
+
+.btnNew:hover {
+    background-color: #c93964;
+    border: 2px solid #ac254d;
+}
+
+textarea {
+    margin-right: 10px;
+    background-color: #fafafa;
+    border: 1.5px solid silver;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 0.75em;
+    width: 90%;
+    outline: none;
+    resize: none;
+    vertical-align: middle;
+}
+
